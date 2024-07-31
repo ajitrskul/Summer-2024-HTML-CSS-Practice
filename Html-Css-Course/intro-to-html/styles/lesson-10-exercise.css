@@ -1,0 +1,179 @@
+p {
+  font-family:Arial;
+
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+/*10a & 10b*/
+.profile {
+  width:350px;
+  height:100px;
+  margin-bottom:10px;
+  
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  box-shadow:5px 5px 10px rgb(0,0,0,0.25);
+
+  display:flex;
+  justify-content:center;
+}
+
+.pfp-1 {
+  width:100px;
+  height:150px;
+
+  display:flex;
+  justify-content:center;
+}
+
+.info-1 {
+  width:150px;
+  height:150px;
+
+  display:inline-block;
+}
+
+.follow {
+  width:100px;
+}
+
+.pic-1 {
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left:60px;
+  margin-right:60px;
+
+  object-fit:cover;
+  width:60px;;
+  height:60px;;
+  border-radius:100%;
+}
+
+.name-1 {
+  font-weight:bold;
+  font-size:16px;
+
+  margin-top:20px;
+  margin-bottom:6px;
+  vertical-align:bottom;
+}
+
+.quality-1 {
+  color:rgb(92,92,92);
+  font-size:16px;
+}
+
+.quality-2 {
+  color:rgb(92,92,92);
+  font-size:14px;
+} 
+
+.follow {
+  color:white;
+  background-color:#4093ef;
+  border:none;
+  border-radius:5px;
+  font-weight:bold;
+
+  width:70px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:8px;
+  padding-bottom:8px;
+
+  margin-left:15px;
+  margin-top:30px;
+  cursor:pointer;
+}
+
+.follow:hover {
+  background-color:#3d8be4;
+}
+
+.follow:active {
+  opacity:0.8;
+}
+
+.spacer {
+  height:50px;
+}
+
+/*10b*/
+.pic-2 {
+  margin-top:20px;
+  margin-bottom:10px;
+  
+
+  object-fit:cover;
+  width:60px;;
+  height:60px;;
+  border-radius:100%;
+}
+
+.pic-3 {
+  margin-top:20px;
+  margin-bottom:10px;
+
+  object-fit:cover;
+  width:60px;;
+  height:60px;;
+  border-radius:100%;
+}
+
+/*10c*/
+.video-info {
+  width:402px;
+  height:94px;
+}
+
+.picture {
+  width:168px;
+  height:94px;
+
+  display:inline-block;
+  vertical-align:top;
+}
+
+.video-text {
+  width:226px;
+  height:94px;
+
+  display:inline-block;
+  vertical-align:top;
+}
+
+.thumbnail {
+  width:90%;
+  height:90%;
+  margin-top:5%;
+  margin-bottom:5%;
+
+  border-radius:5px;
+  object-fit:cover;
+}
+
+.video-title {
+  font-weight:bold;
+  font-family:Roboto,Arial;
+  font-size:15px;
+
+  margin-top:5%;
+  margin-bottom:5px;
+}
+
+.video-author,
+.video-stats {
+  font-family:Roboto,Arial;
+  font-size:13px;
+  color:rgb(92,92,92);
+}
+
+.video-author {
+  margin-bottom:2px;
+}
+
+
+
+

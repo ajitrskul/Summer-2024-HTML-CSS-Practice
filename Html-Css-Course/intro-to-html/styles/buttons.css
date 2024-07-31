@@ -1,0 +1,78 @@
+/*CSS = cascading style sheets*/
+/*"button" would be the css selector, using a dot targets class instead*/
+.subscribe-button {
+  /*background-color (left of colon) = css property
+    red (right of colon) = css value
+  */
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  /* height: 35px;
+  width: 105px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+/*pseudo class for subscribe-button*/
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(67, 140, 199);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(67, 140, 199);
+  /* height: 36px;
+  width: 62px; */
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(67, 140, 199);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-radius: 18px;
+  border: none;
+  /* width: 74px;
+  height: 36px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}

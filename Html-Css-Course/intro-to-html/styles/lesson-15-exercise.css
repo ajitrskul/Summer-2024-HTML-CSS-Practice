@@ -1,0 +1,111 @@
+body {
+  height:3000px;
+}
+
+/*15a*/
+.close-button {
+  position:absolute;
+  top:15px;
+  right:15px;
+
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:15px;
+  padding-right:15px;
+  background-color:black;
+  color:white;
+  border-radius:25px;
+}
+
+/*15b*/
+.gray-box {
+  width:320px;
+  height:180px;
+  background-color:gray;
+  position:fixed;
+  right:15px;
+  bottom:15px;
+}
+
+/*15c*/
+.close-button2 {
+  position:absolute;
+  top:-15px;
+  left:-15px;
+
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:15px;
+  padding-right:15px;
+  background-color:black;
+  color:white;
+  border-radius:25px;
+}
+
+/*15d*/
+.timestamp {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+
+  font-family:Arial;
+  background-color:black;
+  color:white;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:2px;
+  padding-bottom:2px;
+
+}
+
+/*15e & 15f*/
+.store-listing {
+  width:500px;
+  height:500px;
+  position:relative;
+  display:inline-block;
+}
+
+.shirt {
+  object-fit:cover;
+  width:500px;
+  height:500px;
+}
+
+.discount {
+  position:absolute;
+  right:0;
+  top:15px;
+
+  color:white;
+  font-family:Arial;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:18px;
+  padding-right:18px;
+  background-color:black;
+}
+
+.divider {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  height:150px;
+  background-color:rgba(255,255,255,0.8)
+}
+
+.cart-button {
+  color:black;
+  font-size:14px;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-left:12px;
+  padding-right:12px;
+
+  border-width:2px;
+}
